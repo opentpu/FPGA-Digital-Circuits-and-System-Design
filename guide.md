@@ -1,3 +1,8 @@
+---
+layout: page
+title: 资源使用说明
+---
+
 # 资源使用说明
 
 本文件说明如何获取和使用《FPGA 数字电路与系统设计：高层次综合与软硬件协同优化》的配套资源。
@@ -26,14 +31,21 @@ git pull
 
 | 目录 | 内容 |
 | --- | --- |
-| `slides/` | 演示幻灯片 |
-| `code/` | 示例代码 |
-| `labs/` | 实验指导材料 |
-| `projects/` | 项目工程文件 |
-| `assignments/` | 作业材料 |
-| `answers/` | 参考答案材料 |
+| `resources/chapter-XX/slides/` | 各章节演示幻灯片 |
+| `resources/chapter-XX/code/` | 各章节示例代码 |
+| `resources/chapter-XX/labs/` | 各章节实验指导材料 |
+| `resources/chapter-XX/assignments/` | 各章节作业材料 |
+| `resources/chapter-XX/answers/` | 各章节参考答案 |
+| `resources/common/` | 跨章节通用资源 |
+| `projects/` | 跨章节项目工程文件 |
 | `materials/book/` | 教材相关资料 |
 | `docs/` | 说明文档、勘误和更新记录 |
+
+## 教材 PDF
+
+较大的教材 PDF 不直接长期保存在主仓库中，而是通过 GitHub Releases 发布：
+
+https://github.com/opentpu/FPGA-Digital-Circuits-and-System-Design/releases/tag/book-draft-2026-06-08
 
 ## 提交反馈
 
@@ -73,6 +85,6 @@ jiangweixiong@tongji.edu.cn
 ## 注意事项
 
 - 本仓库会优先发布已经确认可公开的资料。
-- 作业答案、内部教学资料和课程专用资料可能不会立即公开。
-- 大型工程文件、视频或完整资源包可能会通过 GitHub Releases、学校课程网站或出版社页面发布。
+- 作业答案可以公开，后续会按章节放入 `resources/chapter-XX/answers/`。
+- 大型工程文件、视频、教材 PDF 或完整资源包会优先通过 GitHub Releases、学校课程网站或出版社页面发布。
 - 请以仓库中的更新日志和公开勘误为准查看最新变更。

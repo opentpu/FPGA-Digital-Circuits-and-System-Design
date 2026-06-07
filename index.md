@@ -1,3 +1,8 @@
+---
+layout: home
+title: FPGA Digital Circuits and System Design
+---
+
 # FPGA Digital Circuits and System Design
 
 《FPGA 数字电路与系统设计：高层次综合与软硬件协同优化》配套资源与勘误发布页。
@@ -7,7 +12,8 @@
 - [资源使用说明](guide.md)
 - [公开勘误](errata.md)
 - [资源更新日志](update-log.md)
-- [仓库建设方案](repository-plan.md)
+- [教材 PDF Release](https://github.com/opentpu/FPGA-Digital-Circuits-and-System-Design/releases/tag/book-draft-2026-06-08)
+- [仓库建设方案](maintenance/repository-plan.md)
 - [GitHub Issues](https://github.com/opentpu/FPGA-Digital-Circuits-and-System-Design/issues)
 
 ## 反馈方式
@@ -18,4 +24,4 @@
 
 ## 当前说明
 
-本页面先作为稳定入口使用。配套代码、实验材料、演示幻灯片、作业和项目工程文件会在后续逐步补充。
+本页面先作为稳定入口使用。配套代码、实验材料、演示幻灯片、作业、参考答案和项目工程文件会在后续逐步补充。
