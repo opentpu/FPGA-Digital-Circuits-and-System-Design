@@ -9,6 +9,7 @@ title: 资源更新日志
 
 ## 2026-06-08
 
+- 从校内课程资料中筛选导入 132 个 EE116 / EE216 历史公开材料文件到 `resources/common/course-archives/`，并新增归档说明页。
 - 将资源目录调整为 `resources/chapter-XX/` 的章节优先结构。
 - 添加 `CONTRIBUTING.md`，明确协作维护、命名、资源上传和 Release 发布规则。
 - 添加 GitHub Pages 配置和标签同步工作流；Pages 内容通过 `gh-pages` 分支发布。

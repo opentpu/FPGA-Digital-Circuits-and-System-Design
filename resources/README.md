@@ -23,6 +23,8 @@ resources/chapter-XX/
 
 跨章节通用资源放入 `resources/common/`。跨章节项目工程放入仓库根目录的 `projects/`。
 
+其中，历史课程资料的归档整理位于 `resources/common/course-archives/`。
+
 ## Naming
 
 - 章节目录使用 `chapter-01`、`chapter-02`、...、`chapter-24`。
