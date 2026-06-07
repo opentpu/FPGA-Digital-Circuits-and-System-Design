@@ -4,6 +4,7 @@
 
 ## 2026-06-08
 
+- 补充哈亚军老师、孙豪老师和姜伟雄老师的反馈邮箱。
 - 初始化教材配套资源与勘误发布仓库。
 - 建立 `slides/`、`code/`、`labs/`、`projects/`、`assignments/`、`answers/`、`materials/book/` 等目录。
 - 添加资源使用说明、公开勘误表和 GitHub Issue 模板。

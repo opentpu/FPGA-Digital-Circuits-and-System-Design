@@ -65,7 +65,9 @@ https://github.com/opentpu/FPGA-Digital-Circuits-and-System-Design/issues/new?te
 也可以发送邮件至：
 
 ```text
+hayj@shanghaitech.edu.cn
 hao.sun@seu.edu.cn
+jiangweixiong@tongji.edu.cn
 ```
 
 ## 注意事项
