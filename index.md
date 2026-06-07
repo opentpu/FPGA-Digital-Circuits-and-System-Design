@@ -10,6 +10,7 @@ title: FPGA Digital Circuits and System Design
 ## 快速入口
 
 - [资源使用说明](guide.md)
+- [历史课程归档](course-archives.md)
 - [公开勘误](errata.md)
 - [资源更新日志](update-log.md)
 - [教材 PDF Release](https://github.com/opentpu/FPGA-Digital-Circuits-and-System-Design/releases/tag/book-draft-2026-06-08)
@@ -24,4 +25,4 @@ title: FPGA Digital Circuits and System Design
 
 ## 当前说明
 
-本页面先作为稳定入口使用。配套代码、实验材料、演示幻灯片、作业、参考答案和项目工程文件会在后续逐步补充。
+本页面作为稳定入口使用。仓库目前已经包含教材 PDF Release、EE116 / EE216 历史课程归档，以及按章节逐步整理的配套资源目录；后续还会继续补充更多章节化材料。

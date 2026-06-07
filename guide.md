@@ -37,9 +37,19 @@ git pull
 | `resources/chapter-XX/assignments/` | 各章节作业材料 |
 | `resources/chapter-XX/answers/` | 各章节参考答案 |
 | `resources/common/` | 跨章节通用资源 |
+| `resources/common/course-archives/` | 从历史课程资料中整理的 EE116 / EE216 公开归档材料 |
 | `projects/` | 跨章节项目工程文件 |
 | `materials/book/` | 教材相关资料 |
 | `docs/` | 说明文档、勘误和更新记录 |
+
+## 历史课程归档
+
+仓库已经补充了一批 EE116 / EE216 历史教学材料，放在 `resources/common/course-archives/`。这部分内容经过筛选整理，保留了实验、作业、课件、项目和期末考试等适合公开共享的文件。
+
+更详细的目录说明、浏览入口和筛选原则，请参考：
+
+- [历史课程归档说明](course-archives.md)
+- https://github.com/opentpu/FPGA-Digital-Circuits-and-System-Design/tree/main/resources/common/course-archives
 
 ## 教材 PDF
 
