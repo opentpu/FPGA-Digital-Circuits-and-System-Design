@@ -1,0 +1,100 @@
+name: Publish book PDF release
+
+on:
+  push:
+    tags:
+      - "book-draft-*"
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag to publish"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create release and upload PDF
+        uses: actions/github-script@v7
+        env:
+          ASSET_PATH: materials/book/FPGA-Digital-Circuits-and-System-Design-HLS-HW-SW-Co-Optimization-draft.pdf
+          MANUAL_TAG: ${{ inputs.tag }}
+        with:
+          script: |
+            const fs = require("fs");
+            const path = require("path");
+
+            const { owner, repo } = context.repo;
+            const tag = process.env.MANUAL_TAG || context.ref.replace("refs/tags/", "");
+            const assetPath = process.env.ASSET_PATH;
+            const assetName = path.basename(assetPath);
+
+            if (!fs.existsSync(assetPath)) {
+              core.setFailed(`Missing release asset: ${assetPath}`);
+              return;
+            }
+
+            const releaseBody = [
+              "教材 PDF 初稿发布。",
+              "",
+              "本 Release 用于存放较大的教材相关资料，避免主仓库因二进制文件持续增大。",
+              "",
+              "如后续教材文件更新，请使用新的 `book-draft-*` tag 发布新版本。"
+            ].join("\n");
+
+            let release;
+            try {
+              const response = await github.rest.repos.getReleaseByTag({ owner, repo, tag });
+              release = response.data;
+            } catch (error) {
+              if (error.status !== 404) {
+                throw error;
+              }
+
+              const response = await github.rest.repos.createRelease({
+                owner,
+                repo,
+                tag_name: tag,
+                name: `Book Draft ${tag}`,
+                body: releaseBody,
+                prerelease: true
+              });
+              release = response.data;
+            }
+
+            const assets = await github.paginate(github.rest.repos.listReleaseAssets, {
+              owner,
+              repo,
+              release_id: release.id
+            });
+
+            for (const asset of assets) {
+              if (asset.name === assetName) {
+                await github.rest.repos.deleteReleaseAsset({
+                  owner,
+                  repo,
+                  asset_id: asset.id
+                });
+              }
+            }
+
+            const data = fs.readFileSync(assetPath);
+            await github.rest.repos.uploadReleaseAsset({
+              owner,
+              repo,
+              release_id: release.id,
+              name: assetName,
+              data,
+              headers: {
+                "content-type": "application/pdf",
+                "content-length": data.length
+              }
+            });
+
+            core.info(`Uploaded ${assetName} to ${release.html_url}`);
