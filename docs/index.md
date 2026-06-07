@@ -14,7 +14,7 @@
 
 - 勘误反馈：[提交 Errata Issue](https://github.com/opentpu/FPGA-Digital-Circuits-and-System-Design/issues/new?template=errata.yml)
 - 资源问题或请求：[提交 Resource Issue](https://github.com/opentpu/FPGA-Digital-Circuits-and-System-Design/issues/new?template=resource-request.yml)
-- 邮箱反馈：`hao.sun@seu.edu.cn`
+- 邮箱反馈：`hayj@shanghaitech.edu.cn`、`hao.sun@seu.edu.cn`、`jiangweixiong@tongji.edu.cn`
 
 ## 当前说明
 

@@ -253,7 +253,7 @@ GitHub Issues 可以设置两类模板：
 
 关于勘误与更新，尽管我们力求完善，但书中难免存在疏漏或可改进之处。我们将在 GitHub 仓库和课程网站及时发布已知勘误信息和重要内容更新。欢迎读者通过以下方式反馈问题或建议：
 
-□ 发送邮件至：[指定反馈邮箱地址]
+□ 发送邮件至：hayj@shanghaitech.edu.cn、hao.sun@seu.edu.cn、jiangweixiong@tongji.edu.cn
 □ 在 GitHub 仓库提交 Issue：[GitHub Issues 链接]
 
 您的宝贵意见将帮助我们不断完善本书。
@@ -273,5 +273,4 @@ GitHub Issues 可以设置两类模板：
 
 ## 十一、需要进一步确认的问题
 
-1. 是否存在课题组邮箱用于创建Github仓库以及作为反馈邮箱
-
+1. 反馈邮箱已初步确认：hayj@shanghaitech.edu.cn、hao.sun@seu.edu.cn、jiangweixiong@tongji.edu.cn。后续如需使用统一课题组邮箱，可再替换。

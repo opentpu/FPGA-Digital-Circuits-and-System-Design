@@ -49,7 +49,13 @@ git clone https://github.com/opentpu/FPGA-Digital-Circuits-and-System-Design.git
 
 - 在 GitHub Issues 中提交 [勘误反馈](https://github.com/opentpu/FPGA-Digital-Circuits-and-System-Design/issues/new?template=errata.yml)。
 - 在 GitHub Issues 中提交 [资源问题或资源请求](https://github.com/opentpu/FPGA-Digital-Circuits-and-System-Design/issues/new?template=resource-request.yml)。
-- 发送邮件至 `hao.sun@seu.edu.cn`。
+- 发送邮件至以下任一邮箱：
+
+| Contact | Email |
+| --- | --- |
+| Yajun Ha | `hayj@shanghaitech.edu.cn` |
+| Hao Sun | `hao.sun@seu.edu.cn` |
+| Weixiong Jiang | `jiangweixiong@tongji.edu.cn` |
 
 公开确认后的勘误会整理在 [docs/errata.md](docs/errata.md)。资源变更记录会整理在 [docs/update-log.md](docs/update-log.md)。
 
@@ -58,7 +64,7 @@ git clone https://github.com/opentpu/FPGA-Digital-Circuits-and-System-Design.git
 - 本仓库优先发布已经确认可公开的资料。
 - 作业答案、内部教学资料和较大的工程文件在公开前需要单独确认。
 - 大文件建议优先通过 GitHub Releases、学校课程网站或出版社页面发布，仓库中保留说明和稳定链接。
-- 反馈邮箱后续可根据课程组意见补充哈亚军老师和姜伟雄老师的联系方式。
+- 反馈邮箱当前包括哈亚军老师、孙豪老师和姜伟雄老师的联系方式。
 
 ## License
 
