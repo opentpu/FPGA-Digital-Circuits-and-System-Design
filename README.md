@@ -15,26 +15,24 @@ Authors:
 
 ## Current Status
 
-本仓库当前处于初始化阶段，已经建立资源发布和勘误反馈的基本目录。示例代码、实验材料、演示幻灯片、作业和项目工程文件会在后续逐步补充。
+本仓库当前处于初始化阶段，已经建立资源发布、教材 PDF Release、勘误反馈和 GitHub Pages 入口。示例代码、实验材料、演示幻灯片、作业、参考答案和项目工程文件会按章节逐步补充。
 
 ## Repository Contents
 
 | Path | Description |
 | --- | --- |
 | `docs/` | 使用说明、公开勘误、更新日志和仓库方案 |
-| `slides/` | 各章节演示幻灯片 |
-| `code/` | 书中示例代码 |
-| `labs/` | 实验指导材料 |
-| `projects/` | 项目完整工程文件 |
-| `assignments/` | 作业材料 |
-| `answers/` | 参考答案材料，公开范围待课程组确认 |
-| `materials/book/` | 教材相关资料 |
+| `resources/` | 按章节组织的演示幻灯片、示例代码、实验、作业和参考答案 |
+| `projects/` | 跨章节项目完整工程文件或项目说明 |
+| `materials/book/` | 教材 PDF 的 Release 发布说明 |
 
 ## Downloads
 
 读者可以通过以下方式获取资源：
 
 - 访问本仓库并点击 `Code` -> `Download ZIP` 下载全部已公开资源。
+- 在 [GitHub Releases](https://github.com/opentpu/FPGA-Digital-Circuits-and-System-Design/releases) 下载较大的教材资料。
+- 教材 PDF 初稿当前发布在 [book-draft-2026-06-08](https://github.com/opentpu/FPGA-Digital-Circuits-and-System-Design/releases/tag/book-draft-2026-06-08)。
 - 使用 Git 克隆本仓库：
 
 ```bash
@@ -62,8 +60,8 @@ git clone https://github.com/opentpu/FPGA-Digital-Circuits-and-System-Design.git
 ## Maintenance Notes
 
 - 本仓库优先发布已经确认可公开的资料。
-- 作业答案、内部教学资料和较大的工程文件在公开前需要单独确认。
-- 大文件建议优先通过 GitHub Releases、学校课程网站或出版社页面发布，仓库中保留说明和稳定链接。
+- 作业答案可以公开，后续按章节放入 `resources/chapter-XX/answers/`。
+- 教材 PDF、大型工程压缩包、视频和完整资源包优先通过 GitHub Releases、学校课程网站或出版社页面发布，仓库中保留说明和稳定链接。
 - 反馈邮箱当前包括哈亚军老师、孙豪老师和姜伟雄老师的联系方式。
 
 ## License

@@ -1,0 +1,152 @@
+[
+  {
+    "name": "needs-triage",
+    "color": "D4C5F9",
+    "description": "Needs initial review by maintainers"
+  },
+  {
+    "name": "errata",
+    "color": "D73A4A",
+    "description": "Textbook errata or correction"
+  },
+  {
+    "name": "resource",
+    "color": "0075CA",
+    "description": "Companion resource issue or request"
+  },
+  {
+    "name": "confirmed",
+    "color": "0E8A16",
+    "description": "Confirmed by maintainers"
+  },
+  {
+    "name": "question",
+    "color": "D876E3",
+    "description": "Reader or maintainer question"
+  },
+  {
+    "name": "documentation",
+    "color": "5319E7",
+    "description": "Documentation update"
+  },
+  {
+    "name": "chapter-01",
+    "color": "BFD4F2",
+    "description": "Chapter 01"
+  },
+  {
+    "name": "chapter-02",
+    "color": "BFD4F2",
+    "description": "Chapter 02"
+  },
+  {
+    "name": "chapter-03",
+    "color": "BFD4F2",
+    "description": "Chapter 03"
+  },
+  {
+    "name": "chapter-04",
+    "color": "BFD4F2",
+    "description": "Chapter 04"
+  },
+  {
+    "name": "chapter-05",
+    "color": "BFD4F2",
+    "description": "Chapter 05"
+  },
+  {
+    "name": "chapter-06",
+    "color": "BFD4F2",
+    "description": "Chapter 06"
+  },
+  {
+    "name": "chapter-07",
+    "color": "BFD4F2",
+    "description": "Chapter 07"
+  },
+  {
+    "name": "chapter-08",
+    "color": "BFD4F2",
+    "description": "Chapter 08"
+  },
+  {
+    "name": "chapter-09",
+    "color": "BFD4F2",
+    "description": "Chapter 09"
+  },
+  {
+    "name": "chapter-10",
+    "color": "BFD4F2",
+    "description": "Chapter 10"
+  },
+  {
+    "name": "chapter-11",
+    "color": "BFD4F2",
+    "description": "Chapter 11"
+  },
+  {
+    "name": "chapter-12",
+    "color": "BFD4F2",
+    "description": "Chapter 12"
+  },
+  {
+    "name": "chapter-13",
+    "color": "BFD4F2",
+    "description": "Chapter 13"
+  },
+  {
+    "name": "chapter-14",
+    "color": "BFD4F2",
+    "description": "Chapter 14"
+  },
+  {
+    "name": "chapter-15",
+    "color": "BFD4F2",
+    "description": "Chapter 15"
+  },
+  {
+    "name": "chapter-16",
+    "color": "BFD4F2",
+    "description": "Chapter 16"
+  },
+  {
+    "name": "chapter-17",
+    "color": "BFD4F2",
+    "description": "Chapter 17"
+  },
+  {
+    "name": "chapter-18",
+    "color": "BFD4F2",
+    "description": "Chapter 18"
+  },
+  {
+    "name": "chapter-19",
+    "color": "BFD4F2",
+    "description": "Chapter 19"
+  },
+  {
+    "name": "chapter-20",
+    "color": "BFD4F2",
+    "description": "Chapter 20"
+  },
+  {
+    "name": "chapter-21",
+    "color": "BFD4F2",
+    "description": "Chapter 21"
+  },
+  {
+    "name": "chapter-22",
+    "color": "BFD4F2",
+    "description": "Chapter 22"
+  },
+  {
+    "name": "chapter-23",
+    "color": "BFD4F2",
+    "description": "Chapter 23"
+  },
+  {
+    "name": "chapter-24",
+    "color": "BFD4F2",
+    "description": "Chapter 24"
+  }
+]

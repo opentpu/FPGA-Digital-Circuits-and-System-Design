@@ -1,9 +1,9 @@
 # Book Materials
 
-本目录用于存放教材相关资料。
+本目录用于说明教材 PDF 和其他较大教材资料的发布位置。
 
-当前文件：
+教材 PDF 初稿不再长期保存在主仓库中，改为通过 GitHub Releases 发布：
 
-- `FPGA-Digital-Circuits-and-System-Design-HLS-HW-SW-Co-Optimization-draft.pdf`
+https://github.com/opentpu/FPGA-Digital-Circuits-and-System-Design/releases/tag/book-draft-2026-06-08
 
-该 PDF 为当前整理阶段的教材相关资料，后续可根据作者和出版社要求替换、移除或迁移到更合适的发布位置。
+后续如需发布新版教材 PDF，请创建新的 `book-draft-*` tag，触发 `.github/workflows/publish-book-release.yml` 自动创建 Release 并上传 PDF。
