@@ -1,0 +1,58 @@
+name: 勘误反馈
+description: 反馈教材正文、图表、公式、代码片段或资源说明中的错误
+title: "[Errata] "
+labels:
+  - errata
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈教材问题。请尽量提供清晰的位置和修改建议，方便我们核对。
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: 问题类型
+      options:
+        - 文字表述
+        - 图表
+        - 公式
+        - 代码片段
+        - 页码或交叉引用
+        - 其他
+    validations:
+      required: true
+  - type: input
+    id: chapter
+    attributes:
+      label: 所在章节
+      placeholder: 例如：第 5 章
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: 页码或小节位置
+      placeholder: 例如：第 123 页 / 5.2.1 节
+    validations:
+      required: false
+  - type: textarea
+    id: original
+    attributes:
+      label: 原文内容
+      description: 请粘贴或简述存在问题的原文。
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: 建议修改
+      description: 请说明建议如何修改。
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: 补充说明
+      description: 可补充截图、推导过程、相关链接或复现步骤。
+    validations:
+      required: false

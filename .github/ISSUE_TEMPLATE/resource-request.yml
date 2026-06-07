@@ -1,0 +1,46 @@
+name: 资源问题或资源请求
+description: 反馈资源缺失、下载失败、无法运行或希望补充的材料
+title: "[Resource] "
+labels:
+  - resource
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈配套资源问题。请尽量说明资源类型、章节位置和期望内容。
+  - type: dropdown
+    id: resource_type
+    attributes:
+      label: 资源类型
+      options:
+        - 演示幻灯片
+        - 示例代码
+        - 实验指导
+        - 项目工程
+        - 作业材料
+        - 参考答案
+        - 教材 PDF 或说明文档
+        - 其他
+    validations:
+      required: true
+  - type: input
+    id: chapter
+    attributes:
+      label: 所在章节或位置
+      placeholder: 例如：第 14 章 / lab-02 / project-01
+    validations:
+      required: false
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题描述
+      description: 请说明资源缺失、无法下载、无法运行或需要补充的具体情况。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望补充或修改内容
+      description: 请说明希望看到的资源、修复方式或改进建议。
+    validations:
+      required: false

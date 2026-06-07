@@ -1,0 +1,48 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Archives and generated packages
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Common FPGA / EDA generated outputs
+*.jou
+*.log
+*.rpt
+*.str
+*.wdb
+*.xpr
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.srcs/
+*.gen/
+*.qws
+*.qpf
+*.qsf
+db/
+incremental_db/
+output_files/
+
+# Build outputs
+build/
+dist/
+out/
+tmp/
+temp/
