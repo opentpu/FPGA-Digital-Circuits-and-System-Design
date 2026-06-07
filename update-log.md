@@ -11,7 +11,7 @@ title: 资源更新日志
 
 - 将资源目录调整为 `resources/chapter-XX/` 的章节优先结构。
 - 添加 `CONTRIBUTING.md`，明确协作维护、命名、资源上传和 Release 发布规则。
-- 添加 GitHub Pages 部署工作流和标签同步工作流。
+- 添加 GitHub Pages 配置和标签同步工作流；Pages 内容通过 `gh-pages` 分支发布。
 - 将教材 PDF 改为通过 GitHub Releases 发布，主仓库仅保留发布说明。
 - 补充哈亚军老师、孙豪老师和姜伟雄老师的反馈邮箱。
 - 初始化教材配套资源与勘误发布仓库。
